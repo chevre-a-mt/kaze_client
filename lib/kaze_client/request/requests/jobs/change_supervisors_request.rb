@@ -6,7 +6,7 @@ module KazeClient
     # Change job supervisor
     #
     # @example
-    #     rq = KazeClient::ChangeSupervisorsRequest.new(job_id, [supervisor_id,...]).with_token('token')
+    #     rq = KazeClient::ChangeSupervisorsRequest.new(job_id, [supervisor_id,..]).with_token('token')
     #     KazeClient::Client.new('https://kaze.modulotech.fr').execute(rq)
     #
     # @see KazeClient::Request
